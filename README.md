@@ -31,7 +31,7 @@ bash$ git clone https://github.com/rails-school/starter.git
 #### Without Git
 
 If you haven't setup git, or don't know what that is, you can
-[download the sample app zip file](https://github.com/rails-school/sample/archive/master.zip)
+[download the starter app zip file](https://github.com/rails-school/starter/archive/master.zip)
 and then unzip it into a place that will be easy to get to (like your
 home directory, or a subdirectory off of your home directory).
 
@@ -41,7 +41,7 @@ home directory, or a subdirectory off of your home directory).
 codebase. For example,
 
     ```bash
-    bash$ cd ~/sample
+    bash$ cd ~/starter
     ```
 
 1. Install all the dependencies listed in the `Gemfile`
