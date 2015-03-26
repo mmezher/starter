@@ -40,27 +40,27 @@ home directory, or a subdirectory off of your home directory).
 1. Open up a terminal and navigate to where you installed the
 codebase. For example,
 
-```bash
-bash$ cd ~/sample
-```
+    ```bash
+    bash$ cd ~/sample
+    ```
 
 1. Install all the dependencies listed in the `Gemfile`
 
-```bash
-bash$ bundle install
-```
+    ```bash
+    bash$ bundle install
+    ```
 
 1. Create the initial database
 
-```bash
-bash$ rake db:create
-bash$ rake db:migrate
-```
+    ```bash
+    bash$ rake db:create
+    bash$ rake db:migrate
+    ```
 
 1. Launch the server
 
-```bash
-bash$ rails server
-```
+    ```bash
+    bash$ rails server
+    ```
 
 1. If everything went well, navigate to [localhost:3000](http://localhost:3000)
