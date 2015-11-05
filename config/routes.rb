@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  resources :data
+  resources :posts
+  resources :posts
   resources :tasks
   resources :users
   root 'home#index'
