@@ -4,5 +4,161 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+UsersControllerTest	test/controllers/users_controller_test.rb	/^class UsersControllerTest < ActionController::TestCase$/;"	c
+DarumsControllerTest	test/controllers/darums_controller_test.rb	/^class DarumsControllerTest < ActionController::TestCase$/;"	c
+DataControllerTest	test/controllers/data_controller_test.rb	/^class DataControllerTest < ActionController::TestCase$/;"	c
+TasksControllerTest	test/controllers/tasks_controller_test.rb	/^class TasksControllerTest < ActionController::TestCase$/;"	c
+PostsControllerTest	test/controllers/posts_controller_test.rb	/^class PostsControllerTest < ActionController::TestCase$/;"	c
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+PostTest	test/models/post_test.rb	/^class PostTest < ActiveSupport::TestCase$/;"	c
+DatumTest	test/models/datum_test.rb	/^class DatumTest < ActiveSupport::TestCase$/;"	c
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+TaskTest	test/models/task_test.rb	/^class TaskTest < ActiveSupport::TestCase$/;"	c
+DarumTest	test/models/darum_test.rb	/^class DarumTest < ActiveSupport::TestCase$/;"	c
 HTTParty	.oh-my-zsh/plugins/cloudapp/cloudapp.rb	/^class HTTParty::Response$/;"	c
 ok?	.oh-my-zsh/plugins/cloudapp/cloudapp.rb	/^  def ok? ; true end$/;"	f	class:HTTParty
+CreateTasks	db/migrate/20150326063505_create_tasks.rb	/^class CreateTasks < ActiveRecord::Migration$/;"	c
+change	db/migrate/20150326063505_create_tasks.rb	/^  def change$/;"	f	class:CreateTasks
+CreatePosts	db/migrate/20151105001359_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration$/;"	c
+change	db/migrate/20151105001359_create_posts.rb	/^  def change$/;"	f	class:CreatePosts
+CreateData	db/migrate/20151105004650_create_data.rb	/^class CreateData < ActiveRecord::Migration$/;"	c
+change	db/migrate/20151105004650_create_data.rb	/^  def change$/;"	f	class:CreateData
+CreateData	db/migrate/20151105004525_create_data.rb	/^class CreateData < ActiveRecord::Migration$/;"	c
+change	db/migrate/20151105004525_create_data.rb	/^  def change$/;"	f	class:CreateData
+CreateUsers	db/migrate/20150326062824_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+change	db/migrate/20150326062824_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+CreatePosts	db/migrate/20151105000213_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration$/;"	c
+change	db/migrate/20151105000213_create_posts.rb	/^  def change$/;"	f	class:CreatePosts
+CreateDarums	db/migrate/20151105004526_create_darums.rb	/^class CreateDarums < ActiveRecord::Migration$/;"	c
+change	db/migrate/20151105004526_create_darums.rb	/^  def change$/;"	f	class:CreateDarums
+Starter	config/application.rb	/^module Starter$/;"	m
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Starter
+TasksController	app/controllers/tasks_controller.rb	/^class TasksController < ApplicationController$/;"	c
+index	app/controllers/tasks_controller.rb	/^  def index$/;"	f	class:TasksController
+show	app/controllers/tasks_controller.rb	/^  def show$/;"	f	class:TasksController
+new	app/controllers/tasks_controller.rb	/^  def new$/;"	f	class:TasksController
+edit	app/controllers/tasks_controller.rb	/^  def edit$/;"	f	class:TasksController
+create	app/controllers/tasks_controller.rb	/^  def create$/;"	f	class:TasksController
+update	app/controllers/tasks_controller.rb	/^  def update$/;"	f	class:TasksController
+destroy	app/controllers/tasks_controller.rb	/^  def destroy$/;"	f	class:TasksController
+set_task	app/controllers/tasks_controller.rb	/^    def set_task$/;"	f	class:TasksController
+task_params	app/controllers/tasks_controller.rb	/^    def task_params$/;"	f	class:TasksController
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+HomeController	app/controllers/home_controller.rb	/^class HomeController < ApplicationController$/;"	c
+inded	app/controllers/home_controller.rb	/^  def inded$/;"	f	class:HomeController
+PostsController	app/controllers/posts_controller.rb	/^class PostsController < ApplicationController$/;"	c
+index	app/controllers/posts_controller.rb	/^  def index$/;"	f	class:PostsController
+show	app/controllers/posts_controller.rb	/^  def show$/;"	f	class:PostsController
+new	app/controllers/posts_controller.rb	/^  def new$/;"	f	class:PostsController
+edit	app/controllers/posts_controller.rb	/^  def edit$/;"	f	class:PostsController
+create	app/controllers/posts_controller.rb	/^  def create$/;"	f	class:PostsController
+update	app/controllers/posts_controller.rb	/^  def update$/;"	f	class:PostsController
+destroy	app/controllers/posts_controller.rb	/^  def destroy$/;"	f	class:PostsController
+set_post	app/controllers/posts_controller.rb	/^    def set_post$/;"	f	class:PostsController
+post_params	app/controllers/posts_controller.rb	/^    def post_params$/;"	f	class:PostsController
+DataController	app/controllers/data_controller.rb	/^class DataController < ApplicationController$/;"	c
+index	app/controllers/data_controller.rb	/^  def index$/;"	f	class:DataController
+show	app/controllers/data_controller.rb	/^  def show$/;"	f	class:DataController
+new	app/controllers/data_controller.rb	/^  def new$/;"	f	class:DataController
+edit	app/controllers/data_controller.rb	/^  def edit$/;"	f	class:DataController
+create	app/controllers/data_controller.rb	/^  def create$/;"	f	class:DataController
+update	app/controllers/data_controller.rb	/^  def update$/;"	f	class:DataController
+destroy	app/controllers/data_controller.rb	/^  def destroy$/;"	f	class:DataController
+set_datum	app/controllers/data_controller.rb	/^    def set_datum$/;"	f	class:DataController
+datum_params	app/controllers/data_controller.rb	/^    def datum_params$/;"	f	class:DataController
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+index	app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+edit	app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+update	app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
+destroy	app/controllers/users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+set_user	app/controllers/users_controller.rb	/^    def set_user$/;"	f	class:UsersController
+user_params	app/controllers/users_controller.rb	/^    def user_params$/;"	f	class:UsersController
+Datum	app/models/datum.rb	/^class Datum < ActiveRecord::Base$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+Post	app/models/post.rb	/^class Post < ActiveRecord::Base$/;"	c
+Task	app/models/task.rb	/^class Task < ActiveRecord::Base$/;"	c
+TasksHelper	app/helpers/tasks_helper.rb	/^module TasksHelper$/;"	m
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+DarumsHelper	app/helpers/darums_helper.rb	/^module DarumsHelper$/;"	m
+DataHelper	app/helpers/data_helper.rb	/^module DataHelper$/;"	m
+PostsHelper	app/helpers/posts_helper.rb	/^module PostsHelper$/;"	m
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+UsersControllerTest	code/starter/test/controllers/users_controller_test.rb	/^class UsersControllerTest < ActionController::TestCase$/;"	c
+DarumsControllerTest	code/starter/test/controllers/darums_controller_test.rb	/^class DarumsControllerTest < ActionController::TestCase$/;"	c
+DataControllerTest	code/starter/test/controllers/data_controller_test.rb	/^class DataControllerTest < ActionController::TestCase$/;"	c
+TasksControllerTest	code/starter/test/controllers/tasks_controller_test.rb	/^class TasksControllerTest < ActionController::TestCase$/;"	c
+PostsControllerTest	code/starter/test/controllers/posts_controller_test.rb	/^class PostsControllerTest < ActionController::TestCase$/;"	c
+ActiveSupport	code/starter/test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+PostTest	code/starter/test/models/post_test.rb	/^class PostTest < ActiveSupport::TestCase$/;"	c
+DatumTest	code/starter/test/models/datum_test.rb	/^class DatumTest < ActiveSupport::TestCase$/;"	c
+UserTest	code/starter/test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+TaskTest	code/starter/test/models/task_test.rb	/^class TaskTest < ActiveSupport::TestCase$/;"	c
+DarumTest	code/starter/test/models/darum_test.rb	/^class DarumTest < ActiveSupport::TestCase$/;"	c
+CreateTasks	code/starter/db/migrate/20150326063505_create_tasks.rb	/^class CreateTasks < ActiveRecord::Migration$/;"	c
+change	code/starter/db/migrate/20150326063505_create_tasks.rb	/^  def change$/;"	f	class:CreateTasks
+CreatePosts	code/starter/db/migrate/20151105001359_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration$/;"	c
+change	code/starter/db/migrate/20151105001359_create_posts.rb	/^  def change$/;"	f	class:CreatePosts
+CreateData	code/starter/db/migrate/20151105004650_create_data.rb	/^class CreateData < ActiveRecord::Migration$/;"	c
+change	code/starter/db/migrate/20151105004650_create_data.rb	/^  def change$/;"	f	class:CreateData
+CreateUsers	code/starter/db/migrate/20150326062824_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+change	code/starter/db/migrate/20150326062824_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+CreateDarums	code/starter/db/migrate/20151105004526_create_darums.rb	/^class CreateDarums < ActiveRecord::Migration$/;"	c
+change	code/starter/db/migrate/20151105004526_create_darums.rb	/^  def change$/;"	f	class:CreateDarums
+Starter	code/starter/config/application.rb	/^module Starter$/;"	m
+Application	code/starter/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Starter
+TasksController	code/starter/app/controllers/tasks_controller.rb	/^class TasksController < ApplicationController$/;"	c
+index	code/starter/app/controllers/tasks_controller.rb	/^  def index$/;"	f	class:TasksController
+show	code/starter/app/controllers/tasks_controller.rb	/^  def show$/;"	f	class:TasksController
+new	code/starter/app/controllers/tasks_controller.rb	/^  def new$/;"	f	class:TasksController
+edit	code/starter/app/controllers/tasks_controller.rb	/^  def edit$/;"	f	class:TasksController
+create	code/starter/app/controllers/tasks_controller.rb	/^  def create$/;"	f	class:TasksController
+update	code/starter/app/controllers/tasks_controller.rb	/^  def update$/;"	f	class:TasksController
+destroy	code/starter/app/controllers/tasks_controller.rb	/^  def destroy$/;"	f	class:TasksController
+set_task	code/starter/app/controllers/tasks_controller.rb	/^    def set_task$/;"	f	class:TasksController
+task_params	code/starter/app/controllers/tasks_controller.rb	/^    def task_params$/;"	f	class:TasksController
+ApplicationController	code/starter/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+HomeController	code/starter/app/controllers/home_controller.rb	/^class HomeController < ApplicationController$/;"	c
+inded	code/starter/app/controllers/home_controller.rb	/^  def inded$/;"	f	class:HomeController
+PostsController	code/starter/app/controllers/posts_controller.rb	/^class PostsController < ApplicationController$/;"	c
+index	code/starter/app/controllers/posts_controller.rb	/^  def index$/;"	f	class:PostsController
+show	code/starter/app/controllers/posts_controller.rb	/^  def show$/;"	f	class:PostsController
+new	code/starter/app/controllers/posts_controller.rb	/^  def new$/;"	f	class:PostsController
+edit	code/starter/app/controllers/posts_controller.rb	/^  def edit$/;"	f	class:PostsController
+create	code/starter/app/controllers/posts_controller.rb	/^  def create$/;"	f	class:PostsController
+update	code/starter/app/controllers/posts_controller.rb	/^  def update$/;"	f	class:PostsController
+destroy	code/starter/app/controllers/posts_controller.rb	/^  def destroy$/;"	f	class:PostsController
+set_post	code/starter/app/controllers/posts_controller.rb	/^    def set_post$/;"	f	class:PostsController
+post_params	code/starter/app/controllers/posts_controller.rb	/^    def post_params$/;"	f	class:PostsController
+DataController	code/starter/app/controllers/data_controller.rb	/^class DataController < ApplicationController$/;"	c
+index	code/starter/app/controllers/data_controller.rb	/^  def index$/;"	f	class:DataController
+show	code/starter/app/controllers/data_controller.rb	/^  def show$/;"	f	class:DataController
+new	code/starter/app/controllers/data_controller.rb	/^  def new$/;"	f	class:DataController
+edit	code/starter/app/controllers/data_controller.rb	/^  def edit$/;"	f	class:DataController
+create	code/starter/app/controllers/data_controller.rb	/^  def create$/;"	f	class:DataController
+update	code/starter/app/controllers/data_controller.rb	/^  def update$/;"	f	class:DataController
+destroy	code/starter/app/controllers/data_controller.rb	/^  def destroy$/;"	f	class:DataController
+set_datum	code/starter/app/controllers/data_controller.rb	/^    def set_datum$/;"	f	class:DataController
+datum_params	code/starter/app/controllers/data_controller.rb	/^    def datum_params$/;"	f	class:DataController
+UsersController	code/starter/app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+index	code/starter/app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+show	code/starter/app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+new	code/starter/app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+edit	code/starter/app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
+create	code/starter/app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+update	code/starter/app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
+destroy	code/starter/app/controllers/users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+set_user	code/starter/app/controllers/users_controller.rb	/^    def set_user$/;"	f	class:UsersController
+user_params	code/starter/app/controllers/users_controller.rb	/^    def user_params$/;"	f	class:UsersController
+Datum	code/starter/app/models/datum.rb	/^class Datum < ActiveRecord::Base$/;"	c
+User	code/starter/app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+Post	code/starter/app/models/post.rb	/^class Post < ActiveRecord::Base$/;"	c
+Task	code/starter/app/models/task.rb	/^class Task < ActiveRecord::Base$/;"	c
+TasksHelper	code/starter/app/helpers/tasks_helper.rb	/^module TasksHelper$/;"	m
+ApplicationHelper	code/starter/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+DarumsHelper	code/starter/app/helpers/darums_helper.rb	/^module DarumsHelper$/;"	m
+DataHelper	code/starter/app/helpers/data_helper.rb	/^module DataHelper$/;"	m
+PostsHelper	code/starter/app/helpers/posts_helper.rb	/^module PostsHelper$/;"	m
+UsersHelper	code/starter/app/helpers/users_helper.rb	/^module UsersHelper$/;"	m

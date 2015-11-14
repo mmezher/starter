@@ -15,7 +15,11 @@
     <% @posts.each do |post| %>
       <tr>
         <td><%= post.user.name %></td>
+<<<<<<< HEAD
         <td><%= image_tag attachment_url(post, :image, :fill, 128, 128, format: "jpg") %></td>
+=======
+        <td><%= image_tag attachment_url(post, :image, :fill, 300, 300, format: "png") %>
+>>>>>>> 6c6a7a1171d965961e49a8a893c566db2afb5f78
         <td><%= link_to 'Show', post %></td>
         <td><%= link_to 'Edit', edit_post_path(post) %></td>
         <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>

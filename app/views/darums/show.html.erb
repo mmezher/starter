@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @darum.user %>
+</p>
+
+<p>
+  <strong>Csv:</strong>
+  <%= @darum.csv_id %>
+</p>
+
+<%= link_to 'Edit', edit_darum_path(@darum) %> |
+<%= link_to 'Back', darums_path %>
