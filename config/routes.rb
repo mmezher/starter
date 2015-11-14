@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
 
   resources :data
+<<<<<<< HEAD
   resources :posts
+=======
+  resources :darums
+>>>>>>> 6c6a7a1171d965961e49a8a893c566db2afb5f78
   resources :posts
   resources :tasks
   resources :users

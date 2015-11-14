@@ -11,6 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20151105004525) do
 
   create_table "data", force: :cascade do |t|
@@ -21,6 +22,9 @@ ActiveRecord::Schema.define(version: 20151105004525) do
   end
 
   add_index "data", ["user_id"], name: "index_data_on_user_id"
+=======
+ActiveRecord::Schema.define(version: 20151105001359) do
+>>>>>>> 6c6a7a1171d965961e49a8a893c566db2afb5f78
 
   create_table "posts", force: :cascade do |t|
     t.integer  "user_id"

@@ -14,8 +14,13 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+<<<<<<< HEAD
 gem "refile-s3"
 
+=======
+gem "refile", require: "refile/rails"
+gem "refile-mini_magick"
+>>>>>>> 6c6a7a1171d965961e49a8a893c566db2afb5f78
 gem 'bootstrap-sass'
 gem 'simple_form'
 

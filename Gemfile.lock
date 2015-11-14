@@ -141,9 +141,12 @@ GEM
     refile-mini_magick (0.2.0)
       mini_magick (~> 4.0)
       refile (~> 0.5)
+<<<<<<< HEAD
     refile-s3 (0.2.0)
       aws-sdk (~> 2.0)
       refile (~> 0.6.0)
+=======
+>>>>>>> 6c6a7a1171d965961e49a8a893c566db2afb5f78
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
@@ -209,7 +212,10 @@ DEPENDENCIES
   rails (= 4.2.1)
   refile
   refile-mini_magick
+<<<<<<< HEAD
   refile-s3
+=======
+>>>>>>> 6c6a7a1171d965961e49a8a893c566db2afb5f78
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   simple_form
