@@ -67,7 +67,7 @@ class DataController < ApplicationController
       @datum = Datum.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
+    # COMMENT COMMENT Never trust parameters from the scary internet, only allow the white list through.
     def datum_params
       params.require(:datum).permit(:user_id, :csv_id)
     end
